@@ -16,7 +16,11 @@ public class Pyramid
 {
     public static void main(String[] args)
     {
-        
+        double numBlocks = 2500000;
+        double blockWeight = 2.5;
+        System.out.println("The number of blocks in Kufu's pyramid is " + numBlocks + "blocks.");
+        System.out.println("The weight of each block is " + blockWeight + "tons.");
+        System.out.print("The total weight of the pyramid is " + blockWeight*numBlocks + "tons.");
 
 
 
